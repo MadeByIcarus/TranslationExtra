@@ -1,0 +1,40 @@
+{
+  "name": "icarus/translation-extra",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "description": "The translation key extractor from latte templates for use with the contributte/translation.",
+  "keywords": [
+    "nette",
+    "translation",
+    "update",
+    "contributte/translation",
+    "ICU message formatter"
+  ],
+  "authors": [
+    {
+      "name": "Pavel Gajdoš",
+      "email": "info@pavelgajdos.cz"
+    },
+    {
+      "name": "Icarus s.r.o",
+      "homepage": "http://icarus.cz"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "contributte/translation": "^0.4.0"
+  },
+  "require-dev": {
+    "nette/tester": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Icarus\\TranslationExtra\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IcarusTests\\": "tests/"
+    }
+  }
+}
