@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Latte\Macros;
+namespace Icarus\TranslationExtra\DI;
 
 
 use Contributte\Translation\Loaders\Neon as NeonFileLoader;
